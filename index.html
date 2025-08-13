@@ -1,96 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-CA">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BetObet – 100% Bonus up to C$750</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>100% Bonus up to C$750 – Exclusive Offer</title>
+  <meta name="description" content="Limited-time 100% welcome bonus up to C$750. Fast payouts, secure platform, mobile-friendly. Minimum deposit C$10. Claim your bonus now.">
+  <meta name="robots" content="noindex,nofollow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="100% Bonus up to C$750 – Exclusive Offer" />
+  <meta property="og:description" content="Limited-time 100% welcome bonus up to C$750. Fast payouts, secure platform, mobile-friendly." />
+  <meta property="og:type" content="website" />
+
   <style>
-    :root{ --bg:#000000; --fg:#ffffff; --gold:#ffd700; --muted:#aaaaaa; }
+    :root{
+      --bg:#0b0b0d;
+      --card:#121216;
+      --text:#f5f5f7;
+      --muted:#b8b8bf;
+      --gold:#d4af37;
+      --accent:#ff3b3b;
+      --accent2:#ffb703;
+      --success:#35d07f;
+    }
     *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:Arial,Helvetica,sans-serif;line-height:1.45}
-    .wrap{max-width:860px;margin:0 auto;padding:28px 18px}
-    .card{
-      background: radial-gradient(1200px 600px at 50% -10%, rgba(255,215,0,.16), transparent 60%),
-                  radial-gradient(800px 400px at 100% 0%, rgba(255,215,0,.10), transparent 50%),
-                  #0a0a0a;
-      border:1px solid rgba(255,255,255,.06);
-      border-radius:16px;
-      padding:28px 22px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,255,255,.03);
-    }
-    h1{
-      margin:0 0 8px;
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial,sans-serif}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:980px;margin:0 auto;padding:20px}
+    .topbar{
+      background:linear-gradient(90deg, rgba(212,175,55,.15), rgba(255,59,59,.15));
+      border-bottom:1px solid rgba(212,175,55,.25);
+      color:#fff;
       text-align:center;
-      font-size:38px;
-      font-weight:900;
-      color:var(--gold);
-      letter-spacing:.3px;
-      text-shadow: 0 2px 0 rgba(0,0,0,.35), 0 5px 18px rgba(255,215,0,.35);
-    }
-    .sub{ text-align:center; margin:0 auto 18px; max-width:720px; font-size:18px; opacity:.95; }
-    .banner{
-      margin:14px auto 18px; width:100%; border-radius:14px; border:1px solid rgba(255,255,255,.08);
-      padding:22px 16px; background:
-        linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,0) 30%),
-        radial-gradient(800px 200px at 50% 0%, rgba(255,215,0,.10), transparent 70%), #111;
-      text-align:center;
-    }
-    .big{
-      font-size:30px; font-weight:900; color:var(--gold);
-      text-shadow: 0 2px 0 rgba(0,0,0,.4), 0 10px 30px rgba(255,215,0,.35);
-      letter-spacing:.5px;
+      font-weight:600;
+      letter-spacing:.2px;
+      padding:10px 14px;
     }
     .badge{
-      display:inline-block; margin-top:6px; padding:6px 10px; border-radius:999px;
-      border:1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.04);
-      font-size:13px; letter-spacing:.2px;
+      display:inline-block;background:rgba(212,175,55,.15);
+      border:1px solid rgba(212,175,55,.35);
+      color:var(--gold);padding:6px 10px;border-radius:999px;
+      font-size:.78rem;margin-right:8px
     }
-    ul.benefits{
-      list-style:none; padding:0; margin:18px auto 8px; max-width:680px;
-      display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:10px 16px;
+    header{
+      display:flex;justify-content:space-between;align-items:center;
+      padding:14px 0;margin-bottom:8px
     }
-    ul.benefits li{ font-size:18px; }
-    .cta{ text-align:center; margin:24px 0 6px; }
-    .cta a{
-      display:inline-block; background:var(--gold); color:#000; font-weight:900; text-decoration:none;
-      padding:16px 26px; border-radius:12px; font-size:20px; letter-spacing:.3px;
-      box-shadow: 0 10px 25px rgba(255,215,0,.35); transition: transform .08s ease, box-shadow .2s ease;
+    .brand{
+      display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px
     }
-    .cta a:active{ transform: translateY(1px); box-shadow: 0 6px 18px rgba(255,215,0,.28); }
-    .fine{ color:var(--muted); font-size:13px; text-align:center; margin-top:10px; }
-    @media (max-width:520px){
-      h1{font-size:30px} .big{font-size:24px}
-      ul.benefits{grid-template-columns:1fr; font-size:17px}
-      .cta a{font-size:18px; padding:14px 22px}
+    .logo{
+      width:34px;height:34px;border-radius:8px;
+      background:radial-gradient(120px 60px at 30% 30%, rgba(212,175,55,.9), transparent 60%),
+                 radial-gradient(120px 60px at 70% 70%, rgba(255,59,59,.85), transparent 60%),
+                 #1b1b20;
+      box-shadow:0 0 0 1px rgba(212,175,55,.35), inset 0 0 24px rgba(255,59,59,.15);
+    }
+    .brand span{color:var(--gold)}
+    .secure{
+      display:flex;gap:14px;align-items:center;color:var(--muted);font-size:.9rem
+    }
+    .secure .dot{width:8px;height:8px;border-radius:50%;background:var(--success);box-shadow:0 0 6px var(--success)}
+    .hero{
+      margin:16px 0 20px;border:1px solid rgba(212,175,55,.25);border-radius:18px;
+      background:
+        radial-gradient(80% 100% at 70% 0%, rgba(255,59,59,.08), transparent 60%),
+        radial-gradient(100% 70% at 0% 40%, rgba(212,175,55,.08), transparent 60%),
+        linear-gradient(180deg, rgba(255,255,255,.03), transparent 60%),
+        var(--card);
+      overflow:hidden;
+    }
+    .hero-inner{padding:28px 22px 26px}
+    .eyebrow{color:var(--gold);font-weight:700;letter-spacing:.18em;font-size:.78rem;text-transform:uppercase}
+    h1{
+      margin:8px 0 6px;font-size:clamp(28px,4.5vw,42px);line-height:1.15;
+      font-weight:900;
+      text-shadow:0 1px 0 rgba(0,0,0,.4);
+    }
+    .sub{color:var(--muted);font-size:clamp(14px,2.2vw,16px)}
+    .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 4px;align-items:center}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:14px 20px;border-radius:12px;
+      background:linear-gradient(180deg,var(--accent2),#ff8a00);
+      color:#111;font-weight:800;letter-spacing:.3px;
+      box-shadow:0 8px 18px rgba(255,146,0,.25), 0 0 0 1px rgba(255,183,3,.4) inset;
+      transition:.15s transform ease,.15s box-shadow ease;
+    }
+    .btn:hover{transform:translateY(-1px);box-shadow:0 12px 26px rgba(255,146,0,.32), 0 0 0 1px rgba(255,183,3,.55) inset}
+    .btn .pulse{
+      width:8px;height:8px;border-radius:50%;background:#111;
+      box-shadow:0 0 0 6px rgba(0,0,0,.15), 0 0 10px rgba(0,0,0,.5) inset;
+    }
+    .note{color:var(--muted);font-size:.82rem}
+    .trust{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px
+    }
+    .trust .item{
+      padding:10px 12px;border-radius:12px;border:1px dashed rgba(212,175,55,.25);color:#dcdce3;
+      display:flex;gap:10px;align-items:center;justify-content:center;font-size:.92rem
+    }
+    .trust .tick{color:var(--gold);font-weight:900}
+    .grid{
+      display:grid;gap:16px;margin-top:18px
+    }
+    @media (min-width:760px){
+      .hero-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:16px;align-items:center}
+      .grid{grid-template-columns:repeat(3,1fr)}
+    }
+    .card{
+      background:rgba(255,255,255,.02);border:1px solid rgba(212,175,55,.18);
+      border-radius:14px;padding:16px
+    }
+    .step{display:flex;gap:12px;align-items:flex-start}
+    .num{
+      width:28px;height:28px;border-radius:8px;display:grid;place-items:center;
+      background:rgba(212,175,55,.15);border:1px solid rgba(212,175,55,.45);color:var(--gold);font-weight:800
+    }
+    .faq details{background:rgba(255,255,255,.02);border:1px solid rgba(212,175,55,.18);border-radius:12px;padding:12px}
+    .faq summary{cursor:pointer;font-weight:700}
+    footer{
+      margin:24px 0 8px;color:#9a9aa3;font-size:.75rem;line-height:1.35
+    }
+    .legal{opacity:.9}
+    .rg{opacity:.8;margin-top:6px}
+    /* lightweight countdown */
+    .count{
+      display:inline-flex;gap:6px;align-items:center;margin-left:6px;
+      padding:6px 8px;border-radius:999px;background:rgba(255,59,59,.12);border:1px solid rgba(255,59,59,.35);font-weight:700;color:#ffb4b4
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="card">
-      <h1>Limited Time — 100% Bonus up to C$750 for Canadian Players!</h1>
-      <p class="sub">Deposit now and instantly double your bankroll — start winning in minutes!</p>
-
-      <div class="banner" role="img" aria-label="BetObet Welcome Bonus">
-        <div class="big">🎰 100% Welcome Bonus up to C$750</div>
-        <div class="badge">Fast payouts • Secure • Mobile friendly</div>
-      </div>
-
-      <ul class="benefits">
-        <li>🎯 100% bonus up to C$750</li>
-        <li>⚡ Fast & secure payouts</li>
-        <li>🎮 Hundreds of exciting games</li>
-        <li>✅ Licensed & trusted platform</li>
-      </ul>
-
-      <div class="cta">
-        <a href="https://afflat3c2.com/trk/lnk/8080E771-ABBE-4086-8497-70E8AC152CF4/?o=24728&c=918277&a=769101&k=DB61ADD42C1DD7F57A78EC2F4BBE01C9&l=25820" target="_blank" rel="noopener">CLAIM YOUR BONUS NOW</a>
-      </div>
-
-      <div class="fine">
-        * Minimum deposit $10. Bonus terms &amp; conditions apply.
-      </div>
-    </div>
+  <div class="topbar">
+    <span class="badge">Limited Time</span>
+    Extra value for Canadian players — offer ends in
+    <span class="count" id="count">09:59</span>
   </div>
+
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>Bet<span>Obet</span> • Bonus</div>
+      </div>
+      <div class="secure">
+        <span class="dot" aria-hidden="true"></span> Secure • Mobile-Friendly • Licensed
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">Welcome Offer</div>
+          <h1>100% Bonus up to C$750</h1>
+          <p class="sub">Double your first deposit in minutes. Available for Canadian players only.</p>
+
+          <div class="cta-row">
+            <a class="btn" href="https://afflat3c2.com/trk/lnk/8080E771-ABBE-4086-8497-70E8AC152CF4/?o=24728&c=918277&a=769101&k=372BC01BC1A90F0BC49BC0A82E1F3811&l=25820" target="_blank" rel="nofollow noopener">
+              <span class="pulse" aria-hidden="true"></span>
+              CLAIM YOUR BONUS NOW
+            </a>
+            <span class="note">Minimum deposit C$10. Terms apply.</span>
+          </div>
+
+          <div class="trust">
+            <div class="item"><span class="tick">✔</span> Fast & secure payouts</div>
+            <div class="item"><span class="tick">✔</span> Hundreds of popular games</div>
+            <div class="item"><span class="tick">✔</span> Trusted & licensed platform</div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="card step">
+            <div class="num">1</div>
+            <div>
+              <strong>Create your account</strong><br>
+              Quick registration with verified provider.
+            </div>
+          </div>
+          <div class="card step">
+            <div class="num">2</div>
+            <div>
+              <strong>Deposit C$10 or more</strong><br>
+              Secure payments with instant confirmation.
+            </div>
+          </div>
+          <div class="card step">
+            <div class="num">3</div>
+            <div>
+              <strong>Get 100% bonus</strong><br>
+              Your bankroll doubles — start playing now.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq grid" style="grid-template-columns:1fr;">
+      <div class="card">
+        <details>
+          <summary>How does the 100% bonus work?</summary>
+          <p class="note">Deposit a minimum of C$10 and receive a 100% match up to C$750. Wagering and game restrictions may apply. Check the official terms after clicking the button above.</p>
+        </details>
+      </div>
+      <div class="card">
+        <details>
+          <summary>Is this offer available in my province?</summary>
+          <p class="note">Availability can vary. The platform will confirm eligibility based on your location when you sign up.</p>
+        </details>
+      </div>
+    </section>
+
+    <footer>
+      <div class="legal">
+        * Bonus terms & conditions apply. Offer subject to change. This page contains an affiliate link and we may receive a commission.
+      </div>
+      <div class="rg">
+        Play responsibly. Must be of legal age in your province/territory. If you need help, visit your local responsible gambling resources.
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Lightweight 10:00 countdown to add urgency (resets on refresh)
+    (function(){
+      var el = document.getElementById('count'); if(!el) return;
+      var total = 10*60; // 10 minutes
+      function tick(){
+        var m = Math.floor(total/60), s = total%60;
+        el.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+        total = Math.max(0, total-1);
+      }
+      tick(); setInterval(tick, 1000);
+    })();
+  </script>
 </body>
 </html>
